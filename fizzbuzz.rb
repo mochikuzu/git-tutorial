@@ -2,13 +2,11 @@
 
 for i in 1..100 do
 	if i % 3 == 0 && i % 5 == 0 then
-		print(i, ":FizzBuzz\n")
+		print("FizzBuzz\n")
 	elsif i % 3 == 0 then
-		print(i, ":Fizz\n")
+		print("Fizz\n")
 	elsif i % 5 == 0 then
-		print(i, ":Buzz\n")
-	elsif i % 7 == 0 then
-		print(i, ":git\n")	
+		print("Buzz\n")	
 	else 
 		print(i, "\n")
 	end
